@@ -1,5 +1,10 @@
+package tests;
+
+import base.BaseTest;
+import config.ConfigLoader;
 import io.restassured.http.ContentType;
-import io.restassured.specification.RequestSpecification;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -10,16 +15,11 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
 
-public class E2ETestCases {
+public class E2ETestCases extends BaseTest {
     String username = "Devashe";
     String password = "Abcdef@1234";
     String token="";
     String userID="";
-    @BeforeClass
-    public void setup(){
-        baseURI = "https://bookstore.toolsqa.com/";
-    }
-
     @Test(priority = 0, description = "User Registration API with authentication: Validate Response status, Headers, and Response Body")
     public void registerUserTest(){
        userID = given()
@@ -28,7 +28,7 @@ public class E2ETestCases {
                 .when()
                 .log()
                 .all()
-                .post("Account/v1/User")
+                .post(ConfigLoader.getProperty("registerUser"))
                 .then()
                 .log()
                 .all()
@@ -47,7 +47,7 @@ public class E2ETestCases {
                 .when()
                 .log()
                 .all()
-                .post("Account/v1/User")
+                .post(ConfigLoader.getProperty("registerUser"))
                 .then()
                 .log()
                 .all()
@@ -64,7 +64,7 @@ public class E2ETestCases {
                     .when()
                     .log()
                     .all()
-                    .post("Account/v1/GenerateToken")
+                    .post(ConfigLoader.getProperty("generateToken"))
                     .then()
                     .log()
                     .all()
@@ -84,7 +84,7 @@ public class E2ETestCases {
                 .when()
                 .log()
                 .all()
-                .post("Account/v1/GenerateToken")
+                .post(ConfigLoader.getProperty("generateToken"))
                 .then()
                 .log()
                 .all()
@@ -103,7 +103,7 @@ public class E2ETestCases {
                 .when()
                 .log()
                 .all()
-                .get("BookStore/v1/Books")
+                .get(ConfigLoader.getProperty("getBooks"))
                 .then()
                 .log()
                 .all()
@@ -120,7 +120,7 @@ public class E2ETestCases {
                 .when()
                 .log()
                 .all()
-                .get("BookStore/v1/Book")
+                .get(ConfigLoader.getProperty("getBook"))
                 .then()
                 .log()
                 .all()
@@ -142,7 +142,7 @@ public class E2ETestCases {
                         "}")
                 .log().all()
                 .when()
-                .post("BookStore/v1/Books")
+                .post(ConfigLoader.getProperty("addBook"))
                 .then()
                 .log()
                 .all()
@@ -165,7 +165,7 @@ public class E2ETestCases {
                         "}")
                 .log().all()
                 .when()
-                .post("BookStore/v1/Books")
+                .post(ConfigLoader.getProperty("addBook"))
                 .then()
                 .log()
                 .all()
@@ -188,7 +188,7 @@ public class E2ETestCases {
                 .all()
                 .when()
 
-                .put("BookStore/v1/Books/9781449365035")
+                .put(ConfigLoader.getProperty("addBook")+"9781449365035")
                 .then()
                 .log()
                 .all()
@@ -210,7 +210,7 @@ public class E2ETestCases {
                 .log()
                 .all()
                 .when()
-                .delete("BookStore/v1/Book")
+                .delete(ConfigLoader.getProperty("deleteBook"))
                 .then()
                 .log()
                 .all()
