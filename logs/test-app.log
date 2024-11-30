@@ -1,5 +1,0 @@
-2024-11-26 00:04:15 DEBUG base.BaseTest - Setting up baseuri
-2024-11-26 00:04:15 INFO  config.ConfigLoader - Trying to read Configuration file.
-2024-11-26 00:04:15 INFO  config.ConfigLoader - Configuration File loaded successfully.
-2024-11-26 00:04:15 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
-2024-11-26 00:04:15 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'

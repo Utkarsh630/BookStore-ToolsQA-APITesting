@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome7",
+  "definitions": {
+    "Welcome7": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "userID": {
+          "type": "string"
+        },
+        "username": {
+          "type": "string"
+        },
+        "books": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "books",
+        "userID",
+        "username"
+      ],
+      "title": "Welcome7"
+    }
+  }
+}
