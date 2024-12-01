@@ -1,0 +1,287 @@
+2024-12-01 14:59:13 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 14:59:13 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 14:59:13 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 14:59:13 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 14:59:13 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 14:59:15 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 14:59:16 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 14:59:18 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 14:59:19 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 14:59:19 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 14:59:21 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 14:59:22 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 15:08:21 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 15:08:21 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 15:08:21 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 15:08:21 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 15:08:22 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 15:08:24 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:08:24 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:08:24 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 15:08:24 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:08:25 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:09:19 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 15:09:19 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 15:09:19 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 15:09:19 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 15:09:19 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 15:09:21 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:09:23 INFO  base.BaseTest - Get all Books test passed successfully
+2024-12-01 15:09:23 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:09:24 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 15:09:24 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:09:25 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 15:09:25 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:09:26 INFO  base.BaseTest - Already existing user test passed successfully
+2024-12-01 15:09:52 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 15:09:52 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 15:09:52 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 15:09:52 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 15:09:53 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:09:54 INFO  base.BaseTest - Get all Books test passed successfully
+2024-12-01 15:09:54 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:09:55 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 15:09:55 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:09:57 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 15:09:57 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:09:58 INFO  base.BaseTest - Already existing user test passed successfully
+2024-12-01 15:09:58 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 15:09:59 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 15:09:59 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 15:10:00 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 15:10:00 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 15:10:04 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 15:10:06 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 15:10:45 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 15:10:45 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 15:10:45 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 15:10:45 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 15:10:45 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:10:47 INFO  base.BaseTest - Get all Books test passed successfully
+2024-12-01 15:10:47 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:10:48 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 15:10:48 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:10:49 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:10:53 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 15:10:53 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 15:10:53 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 15:10:53 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 15:10:53 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:10:54 INFO  base.BaseTest - Get all Books test passed successfully
+2024-12-01 15:10:54 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:10:55 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 15:10:55 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:10:56 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 15:10:56 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:10:57 INFO  base.BaseTest - Already existing user test passed successfully
+2024-12-01 15:10:57 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 15:10:58 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 15:10:58 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 15:10:59 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 15:10:59 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 15:11:00 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 15:11:00 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 15:30:01 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 15:30:01 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 15:30:01 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 15:30:01 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 15:30:01 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:30:03 INFO  base.BaseTest - Get all Books test passed successfully
+2024-12-01 15:30:03 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:30:04 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 15:30:04 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:30:05 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 15:30:05 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:30:06 INFO  base.BaseTest - Already existing user test passed successfully
+2024-12-01 15:30:06 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 15:30:07 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 15:30:07 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 15:30:08 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 15:30:08 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 15:30:09 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 15:30:09 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 15:39:33 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 15:39:33 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 15:39:33 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 15:39:33 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 15:39:33 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:39:34 INFO  base.BaseTest - Get all Books test passed successfully
+2024-12-01 15:39:34 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:39:35 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 15:39:35 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:39:36 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 15:39:36 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:39:37 INFO  base.BaseTest - Already existing user test passed successfully
+2024-12-01 15:39:37 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 15:39:38 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 15:39:38 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 15:39:38 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 15:39:38 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 15:39:39 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 15:39:39 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 15:43:27 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 15:43:27 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 15:43:27 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 15:43:27 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 15:43:27 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:43:29 INFO  base.BaseTest - Get all Books test passed successfully
+2024-12-01 15:43:29 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 15:43:29 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 15:43:29 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:43:31 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 15:43:31 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 15:43:31 INFO  base.BaseTest - Already existing user test passed successfully
+2024-12-01 15:43:31 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 15:43:33 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 15:43:33 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 15:43:34 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 15:43:34 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 15:43:35 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 15:43:35 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 16:34:40 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:34:40 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:34:40 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:34:40 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:34:40 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:34:42 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 16:34:42 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 16:34:43 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 16:34:43 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:34:44 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 16:34:44 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:34:45 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 16:34:45 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 16:35:50 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:35:50 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:35:50 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:35:50 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:35:50 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:35:55 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:35:55 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:35:55 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:35:55 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:35:55 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:35:57 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 16:35:57 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 16:35:58 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 16:35:58 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:35:59 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 16:35:59 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:36:08 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:36:08 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:36:08 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:36:08 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:36:08 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:36:09 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 16:36:09 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 16:36:11 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 16:36:11 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:36:12 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 16:36:12 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:36:13 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 16:36:13 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 16:37:30 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:37:30 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:37:30 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:37:30 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:37:30 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:37:32 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 16:37:32 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 16:37:33 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 16:37:33 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:37:34 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 16:37:34 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:37:34 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 16:37:34 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 16:38:01 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:38:01 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:38:01 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:38:01 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:38:01 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:38:03 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 16:38:03 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 16:38:05 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 16:38:05 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:38:06 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 16:38:06 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:38:07 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 16:38:07 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 16:38:43 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:38:43 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:38:43 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:38:43 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:38:44 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:38:45 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 16:38:45 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 16:38:47 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 16:38:47 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:38:48 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 16:38:48 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:38:49 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 16:38:49 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 16:39:11 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:39:11 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:39:11 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:39:11 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:39:11 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:39:18 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:39:18 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:39:18 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:39:18 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:39:18 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:39:20 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 16:39:20 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 16:39:21 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 16:39:21 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:39:22 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 16:39:22 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:39:23 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 16:39:23 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 16:42:41 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:42:41 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:42:41 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:42:41 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:42:42 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 16:42:43 INFO  base.BaseTest - Get all Books test passed successfully
+2024-12-01 16:42:43 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 16:42:44 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 16:42:44 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:42:46 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 16:42:46 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:42:46 INFO  base.BaseTest - Already existing user test passed successfully
+2024-12-01 16:42:46 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 16:42:48 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 16:42:48 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:42:48 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 16:42:49 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:42:50 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 16:42:50 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'
+2024-12-01 16:42:57 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:42:57 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:42:57 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:42:57 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:42:57 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 16:42:58 INFO  base.BaseTest - Get all Books test passed successfully
+2024-12-01 16:42:58 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 16:42:59 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 16:42:59 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:42:59 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:43:09 DEBUG base.BaseTest - Setting up Base URI!
+2024-12-01 16:43:09 INFO  config.ConfigLoader - Trying to read Configuration file.
+2024-12-01 16:43:09 INFO  config.ConfigLoader - Configuration File loaded successfully.
+2024-12-01 16:43:09 DEBUG config.ConfigLoader - Property loaded: 'baseURI' = 'https://bookstore.toolsqa.com/'
+2024-12-01 16:43:09 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 16:43:11 INFO  base.BaseTest - Get all Books test passed successfully
+2024-12-01 16:43:11 DEBUG config.ConfigLoader - Property loaded: 'getBooks' = 'BookStore/v1/Books'
+2024-12-01 16:43:11 INFO  base.BaseTest - Get Book By ISBN test passed successfully
+2024-12-01 16:43:11 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:43:13 INFO  base.BaseTest - User Registration test passed successfully
+2024-12-01 16:43:13 DEBUG config.ConfigLoader - Property loaded: 'registerUser' = 'Account/v1/User'
+2024-12-01 16:43:13 INFO  base.BaseTest - Already existing user test passed successfully
+2024-12-01 16:43:13 DEBUG config.ConfigLoader - Property loaded: 'generateToken' = 'Account/v1/GenerateToken'
+2024-12-01 16:43:14 INFO  base.BaseTest - Generate Token test passed successfully
+2024-12-01 16:43:14 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:43:16 INFO  base.BaseTest - Add books to user test passed successfully
+2024-12-01 16:43:16 DEBUG config.ConfigLoader - Property loaded: 'addBook' = 'BookStore/v1/Books/'
+2024-12-01 16:43:17 INFO  base.BaseTest - Update book test passed successfully
+2024-12-01 16:43:17 DEBUG config.ConfigLoader - Property loaded: 'deleteBook' = 'BookStore/v1/Book'

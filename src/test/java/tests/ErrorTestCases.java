@@ -2,7 +2,6 @@ package tests;
 
 import base.BaseTest;
 import config.ConfigLoader;
-import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
 import pages.AddBooksByISBNPage;
@@ -11,7 +10,6 @@ import pages.CollectionOfISBNs;
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.with;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.nullValue;

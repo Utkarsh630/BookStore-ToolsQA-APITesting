@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-01T16:43:09 IST" name="BookStoreSuite1" finished-at="2024-12-01T16:43:17 IST" duration-ms="8452">
+    <groups>
+    </groups>
+    <test started-at="2024-12-01T16:43:09 IST" name="SuccessTest" finished-at="2024-12-01T16:43:17 IST" duration-ms="8452">
+      <class name="tests.E2ETestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.E2ETestCases@6ab4a5b]" started-at="2024-12-01T16:43:09 IST" name="setup" finished-at="2024-12-01T16:43:09 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllBooksTest()[pri:0, instance:tests.E2ETestCases@6ab4a5b]" started-at="2024-12-01T16:43:09 IST" name="getAllBooksTest" description="Get All Books: Validate Response Status, Headers, and Response Body" finished-at="2024-12-01T16:43:11 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllBooksTest -->
+        <test-method signature="getBookByISBNTest()[pri:0, instance:tests.E2ETestCases@6ab4a5b]" started-at="2024-12-01T16:43:11 IST" name="getBookByISBNTest" description="Get Book by ISBN: Validate Response Status, Headers, and Response Body" finished-at="2024-12-01T16:43:11 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookByISBNTest -->
+        <test-method signature="registerUserTest()[pri:0, instance:tests.E2ETestCases@6ab4a5b]" started-at="2024-12-01T16:43:11 IST" name="registerUserTest" description="User Registration API with authentication: Validate Response status, Headers, and Response Body" finished-at="2024-12-01T16:43:13 IST" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserTest -->
+        <test-method signature="userAlreadyExistsTest()[pri:0, instance:tests.E2ETestCases@6ab4a5b]" started-at="2024-12-01T16:43:13 IST" name="userAlreadyExistsTest" description="check for existing user registration" finished-at="2024-12-01T16:43:13 IST" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAlreadyExistsTest -->
+        <test-method signature="generateTokenTest_Success()[pri:0, instance:tests.E2ETestCases@6ab4a5b]" started-at="2024-12-01T16:43:13 IST" name="generateTokenTest_Success" description="Generate Token: Success- Validate Response Status, Headers, and Response Body" finished-at="2024-12-01T16:43:14 IST" depends-on-methods="tests.E2ETestCases.registerUserTest" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTokenTest_Success -->
+        <test-method signature="addListOfBooksTest()[pri:0, instance:tests.E2ETestCases@6ab4a5b]" started-at="2024-12-01T16:43:14 IST" name="addListOfBooksTest" description="Add list of Books into user&#039;s book collection: Validate Response Status, Headers, and Response Body" finished-at="2024-12-01T16:43:16 IST" depends-on-methods="tests.E2ETestCases.generateTokenTest_Success, tests.E2ETestCases.registerUserTest" duration-ms="1105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addListOfBooksTest -->
+        <test-method signature="updateBookListByISBN()[pri:0, instance:tests.E2ETestCases@6ab4a5b]" started-at="2024-12-01T16:43:16 IST" name="updateBookListByISBN" description="update books list of user by userId and ISBN: Validate Response Status, Headers, and Response Body" finished-at="2024-12-01T16:43:17 IST" depends-on-methods="tests.E2ETestCases.addListOfBooksTest, tests.E2ETestCases.generateTokenTest_Success, tests.E2ETestCases.registerUserTest" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookListByISBN -->
+        <test-method signature="deleteBookListByISBN()[pri:0, instance:tests.E2ETestCases@6ab4a5b]" started-at="2024-12-01T16:43:17 IST" name="deleteBookListByISBN" description="Delete book from collection by ISBN: Validate Response Status, Headers, and Response Body" finished-at="2024-12-01T16:43:17 IST" depends-on-methods="tests.E2ETestCases.addListOfBooksTest, tests.E2ETestCases.generateTokenTest_Success, tests.E2ETestCases.registerUserTest, tests.E2ETestCases.updateBookListByISBN" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookListByISBN -->
+      </class> <!-- tests.E2ETestCases -->
+    </test> <!-- SuccessTest -->
+  </suite> <!-- BookStoreSuite1 -->
+</testng-results>

@@ -11,9 +11,6 @@ public class AddBooksByISBNPage {
     @JsonProperty("collectionOfIsbns")
     private List<CollectionOfISBNs> collectionOfIsbns;
 
-    public AddBooksByISBNPage() {
-    }
-
     public AddBooksByISBNPage(String userId, List<CollectionOfISBNs> collectionOfIsbns) {
         this.userId = userId;
         this.collectionOfIsbns = collectionOfIsbns;

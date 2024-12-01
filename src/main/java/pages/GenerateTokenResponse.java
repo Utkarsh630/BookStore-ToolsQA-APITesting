@@ -2,8 +2,6 @@ package pages;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.Date;
-
 public class GenerateTokenResponse {
     @JsonProperty("token")
     private String token;

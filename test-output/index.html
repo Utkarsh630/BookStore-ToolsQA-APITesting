@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BookStoreSuite1" class="navigator-link">
+              <span class="suite-name border-passed">BookStoreSuite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BookStoreSuite1" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BookStoreSuite1" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BookStoreSuite1" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BookStoreSuite1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BookStoreSuite1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BookStoreSuite1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BookStoreSuite1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BookStoreSuite1" class="hide-methods passed suite-BookStoreSuite1"> (hide)</a> <!-- hide-methods passed suite-BookStoreSuite1 -->
+                      <a href="#" panel-name="suite-BookStoreSuite1" class="show-methods passed suite-BookStoreSuite1"> (show)</a> <!-- show-methods passed suite-BookStoreSuite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-BookStoreSuite1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookStoreSuite1" title="tests.E2ETestCases" class="method navigator-link" hash-for-method="addListOfBooksTest">addListOfBooksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookStoreSuite1" title="tests.E2ETestCases" class="method navigator-link" hash-for-method="deleteBookListByISBN">deleteBookListByISBN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookStoreSuite1" title="tests.E2ETestCases" class="method navigator-link" hash-for-method="generateTokenTest_Success">generateTokenTest_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookStoreSuite1" title="tests.E2ETestCases" class="method navigator-link" hash-for-method="getAllBooksTest">getAllBooksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookStoreSuite1" title="tests.E2ETestCases" class="method navigator-link" hash-for-method="getBookByISBNTest">getBookByISBNTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookStoreSuite1" title="tests.E2ETestCases" class="method navigator-link" hash-for-method="registerUserTest">registerUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookStoreSuite1" title="tests.E2ETestCases" class="method navigator-link" hash-for-method="updateBookListByISBN">updateBookListByISBN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookStoreSuite1" title="tests.E2ETestCases" class="method navigator-link" hash-for-method="userAlreadyExistsTest">userAlreadyExistsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BookStoreSuite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BookStoreSuite1" class="panel BookStoreSuite1">
+          <div class="suite-BookStoreSuite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.E2ETestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addListOfBooksTest">
+                  </a> <!-- addListOfBooksTest -->
+                  <span class="method-name">addListOfBooksTest</span>
+                  <em>
+(Add list of Books into user's book collection: Validate Response Status, Headers, and Response Body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBookListByISBN">
+                  </a> <!-- deleteBookListByISBN -->
+                  <span class="method-name">deleteBookListByISBN</span>
+                  <em>
+(Delete book from collection by ISBN: Validate Response Status, Headers, and Response Body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="generateTokenTest_Success">
+                  </a> <!-- generateTokenTest_Success -->
+                  <span class="method-name">generateTokenTest_Success</span>
+                  <em>
+(Generate Token: Success- Validate Response Status, Headers, and Response Body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllBooksTest">
+                  </a> <!-- getAllBooksTest -->
+                  <span class="method-name">getAllBooksTest</span>
+                  <em>
+(Get All Books: Validate Response Status, Headers, and Response Body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBookByISBNTest">
+                  </a> <!-- getBookByISBNTest -->
+                  <span class="method-name">getBookByISBNTest</span>
+                  <em>
+(Get Book by ISBN: Validate Response Status, Headers, and Response Body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUserTest">
+                  </a> <!-- registerUserTest -->
+                  <span class="method-name">registerUserTest</span>
+                  <em>
+(User Registration API with authentication: Validate Response status, Headers, and Response Body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBookListByISBN">
+                  </a> <!-- updateBookListByISBN -->
+                  <span class="method-name">updateBookListByISBN</span>
+                  <em>
+(update books list of user by userId and ISBN: Validate Response Status, Headers, and Response Body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userAlreadyExistsTest">
+                  </a> <!-- userAlreadyExistsTest -->
+                  <span class="method-name">userAlreadyExistsTest</span>
+                  <em>
+(check for existing user registration)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BookStoreSuite1-class-passed -->
+        </div> <!-- panel BookStoreSuite1 -->
+        <div panel-name="test-xml-BookStoreSuite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/utkarshsrivastava/IdeaProjects/bookstore-APITest/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BookStoreSuite1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SuccessTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.E2ETestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SuccessTest --&gt;
+&lt;/suite&gt; &lt;!-- BookStoreSuite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BookStoreSuite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BookStoreSuite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SuccessTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BookStoreSuite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BookStoreSuite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BookStoreSuite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BookStoreSuite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BookStoreSuite1');
+function tableData_BookStoreSuite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getAllBooksTest')
+data.setCell(0, 2, 'tests.E2ETestCases')
+data.setCell(0, 3, 1604);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registerUserTest')
+data.setCell(1, 2, 'tests.E2ETestCases')
+data.setCell(1, 3, 1270);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'generateTokenTest_Success')
+data.setCell(2, 2, 'tests.E2ETestCases')
+data.setCell(2, 3, 1145);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addListOfBooksTest')
+data.setCell(3, 2, 'tests.E2ETestCases')
+data.setCell(3, 3, 1105);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'updateBookListByISBN')
+data.setCell(4, 2, 'tests.E2ETestCases')
+data.setCell(4, 3, 964);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteBookListByISBN')
+data.setCell(5, 2, 'tests.E2ETestCases')
+data.setCell(5, 3, 795);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'userAlreadyExistsTest')
+data.setCell(6, 2, 'tests.E2ETestCases')
+data.setCell(6, 3, 757);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getBookByISBNTest')
+data.setCell(7, 2, 'tests.E2ETestCases')
+data.setCell(7, 3, 641);
+window.suiteTableData['BookStoreSuite1']= { tableData: data, tableDiv: 'times-div-BookStoreSuite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-BookStoreSuite1">
+              </div> <!-- times-div-BookStoreSuite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BookStoreSuite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BookStoreSuite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BookStoreSuite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BookStoreSuite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.E2ETestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getAllBooksTest</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getBookByISBNTest</span>
+                <span class="method-start">1756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerUserTest</span>
+                <span class="method-start">2399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userAlreadyExistsTest</span>
+                <span class="method-start">3670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">generateTokenTest_Success</span>
+                <span class="method-start">4429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addListOfBooksTest</span>
+                <span class="method-start">5575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateBookListByISBN</span>
+                <span class="method-start">6683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteBookListByISBN</span>
+                <span class="method-start">7649 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

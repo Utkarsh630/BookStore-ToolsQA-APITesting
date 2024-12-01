@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BookStoreSuite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SuccessTest(failed)">
+    <classes>
+      <class name="tests.E2ETestCases">
+        <methods>
+          <include name="updateBookListByISBN"/>
+          <include name="setup"/>
+          <include name="registerUserTest"/>
+          <include name="addListOfBooksTest"/>
+          <include name="userAlreadyExistsTest"/>
+          <include name="generateTokenTest_Success"/>
+          <include name="deleteBookListByISBN"/>
+        </methods>
+      </class> <!-- tests.E2ETestCases -->
+    </classes>
+  </test> <!-- SuccessTest(failed) -->
+</suite> <!-- Failed suite [BookStoreSuite1] -->

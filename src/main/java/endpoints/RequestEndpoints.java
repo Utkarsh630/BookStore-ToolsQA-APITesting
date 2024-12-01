@@ -1,8 +1,6 @@
 package endpoints;
 
-import config.ConfigLoader;
 import io.restassured.response.Response;
-import io.restassured.response.Validatable;
 import pages.AddBooksByISBNPage;
 import pages.UpdateBooksPage;
 import pages.UserDetails;
