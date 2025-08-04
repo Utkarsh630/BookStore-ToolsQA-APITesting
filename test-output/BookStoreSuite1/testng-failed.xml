@@ -3,14 +3,23 @@
 <suite name="Failed suite [BookStoreSuite1]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SuccessTest(failed)">
     <classes>
+      <class name="tests.ErrorTestCases">
+        <methods>
+          <include name="setup"/>
+          <include name="addListofBooksTest_Failure"/>
+          <include name="generateTokenTest_Failure"/>
+        </methods>
+      </class> <!-- tests.ErrorTestCases -->
       <class name="tests.E2ETestCases">
         <methods>
-          <include name="updateBookListByISBN"/>
           <include name="setup"/>
+          <include name="updateBookListByISBN"/>
           <include name="registerUserTest"/>
           <include name="addListOfBooksTest"/>
           <include name="userAlreadyExistsTest"/>
           <include name="generateTokenTest_Success"/>
+          <include name="getBookByISBNTest"/>
+          <include name="getAllBooksTest"/>
           <include name="deleteBookListByISBN"/>
         </methods>
       </class> <!-- tests.E2ETestCases -->

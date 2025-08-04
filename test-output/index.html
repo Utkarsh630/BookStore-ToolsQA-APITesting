@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">10 methods,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,7 +108,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookStoreSuite1" title="tests.ErrorTestCases" class="method navigator-link" hash-for-method="addListofBooksTest_Failure">addListofBooksTest_Failure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-BookStoreSuite1" title="tests.E2ETestCases" class="method navigator-link" hash-for-method="deleteBookListByISBN">deleteBookListByISBN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BookStoreSuite1" title="tests.ErrorTestCases" class="method navigator-link" hash-for-method="generateTokenTest_Failure">generateTokenTest_Failure</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,6 +163,32 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-BookStoreSuite1" class="panel BookStoreSuite1">
+          <div class="suite-BookStoreSuite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ErrorTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addListofBooksTest_Failure">
+                  </a> <!-- addListofBooksTest_Failure -->
+                  <span class="method-name">addListofBooksTest_Failure</span>
+                  <em>
+(Failure: Add list of Books into user's book collection: Validate Response Status, Headers, and Response Body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="generateTokenTest_Failure">
+                  </a> <!-- generateTokenTest_Failure -->
+                  <span class="method-name">generateTokenTest_Failure</span>
+                  <em>
+(Generate Token: Failure- Validate Response Status, Headers, and Response Body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BookStoreSuite1-class-passed -->
           <div class="suite-BookStoreSuite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -246,6 +282,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;SuccessTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.E2ETestCases&quot;/&gt;
+      &lt;class name=&quot;tests.ErrorTestCases&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SuccessTest --&gt;
 &lt;/suite&gt; &lt;!-- BookStoreSuite1 --&gt;
@@ -259,7 +296,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SuccessTest (1 class)</span>
+                <span class="test-name">SuccessTest (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -285,44 +322,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getAllBooksTest')
-data.setCell(0, 2, 'tests.E2ETestCases')
-data.setCell(0, 3, 1604);
+data.setCell(0, 1, 'generateTokenTest_Failure')
+data.setCell(0, 2, 'tests.ErrorTestCases')
+data.setCell(0, 3, 1947);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'registerUserTest')
 data.setCell(1, 2, 'tests.E2ETestCases')
-data.setCell(1, 3, 1270);
+data.setCell(1, 3, 1932);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'generateTokenTest_Success')
 data.setCell(2, 2, 'tests.E2ETestCases')
-data.setCell(2, 3, 1145);
+data.setCell(2, 3, 1633);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'addListOfBooksTest')
+data.setCell(3, 1, 'getAllBooksTest')
 data.setCell(3, 2, 'tests.E2ETestCases')
-data.setCell(3, 3, 1105);
+data.setCell(3, 3, 1590);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'updateBookListByISBN')
 data.setCell(4, 2, 'tests.E2ETestCases')
-data.setCell(4, 3, 964);
+data.setCell(4, 3, 1569);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'deleteBookListByISBN')
 data.setCell(5, 2, 'tests.E2ETestCases')
-data.setCell(5, 3, 795);
+data.setCell(5, 3, 1441);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'userAlreadyExistsTest')
+data.setCell(6, 1, 'getBookByISBNTest')
 data.setCell(6, 2, 'tests.E2ETestCases')
-data.setCell(6, 3, 757);
+data.setCell(6, 3, 1281);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'getBookByISBNTest')
+data.setCell(7, 1, 'addListOfBooksTest')
 data.setCell(7, 2, 'tests.E2ETestCases')
-data.setCell(7, 3, 641);
+data.setCell(7, 3, 1257);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'userAlreadyExistsTest')
+data.setCell(8, 2, 'tests.E2ETestCases')
+data.setCell(8, 3, 1250);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addListofBooksTest_Failure')
+data.setCell(9, 2, 'tests.ErrorTestCases')
+data.setCell(9, 3, 1246);
 window.suiteTableData['BookStoreSuite1']= { tableData: data, tableDiv: 'times-div-BookStoreSuite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-BookStoreSuite1">
               </div> <!-- times-div-BookStoreSuite1 -->
             </div> <!-- times-div -->
@@ -355,35 +400,50 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getAllBooksTest</span>
-                <span class="method-start">151 ms</span>
+                <span class="method-start">147 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getBookByISBNTest</span>
-                <span class="method-start">1756 ms</span>
+                <span class="method-start">1738 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">registerUserTest</span>
-                <span class="method-start">2399 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">userAlreadyExistsTest</span>
-                <span class="method-start">3670 ms</span>
+                <span class="method-start">3021 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">generateTokenTest_Success</span>
-                <span class="method-start">4429 ms</span>
+                <span class="method-start">4954 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addListOfBooksTest</span>
-                <span class="method-start">5575 ms</span>
+                <span class="method-start">6588 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">updateBookListByISBN</span>
-                <span class="method-start">6683 ms</span>
+                <span class="method-start">7846 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteBookListByISBN</span>
-                <span class="method-start">7649 ms</span>
+                <span class="method-start">9416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userAlreadyExistsTest</span>
+                <span class="method-start">10858 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ErrorTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12109 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">generateTokenTest_Failure</span>
+                <span class="method-start">12110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addListofBooksTest_Failure</span>
+                <span class="method-start">14057 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -4,6 +4,7 @@
     <test name="SuccessTest">
         <classes>
             <class name="tests.E2ETestCases"/>
+            <class name="tests.ErrorTestCases"></class>
         </classes>
     </test>
 </suite>

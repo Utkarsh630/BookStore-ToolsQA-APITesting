@@ -23,6 +23,7 @@ public class E2ETestCases extends BaseTest {
     public void registerUserTest ( ) {
         Response response = RequestEndpoints.postData ( userDetails , ConfigLoader.getProperty ( "registerUser" ) )
                 .then ( )
+                .spec ( jsonResponseSpec () )
                 .statusCode ( HttpStatus.SC_CREATED )
                 .body ( matchesJsonSchemaInClasspath ( "schemas/RegisterJsonSchema.json" ) ).extract ( ).response ( );
         RegisterResponse registerResponse = response.as ( RegisterResponse.class );
@@ -34,6 +35,7 @@ public class E2ETestCases extends BaseTest {
     public void userAlreadyExistsTest ( ) {
         RequestEndpoints.postData ( userDetails , ConfigLoader.getProperty ( "registerUser" ) )
                 .then ( )
+                .spec ( jsonResponseSpec () )
                 .statusCode ( HttpStatus.SC_NOT_ACCEPTABLE )
                 .body ( "code" , equalTo ( "1204" ) )
                 .body ( "message" , equalTo ( "User exists!" ) );
@@ -44,6 +46,7 @@ public class E2ETestCases extends BaseTest {
     public void generateTokenTest_Success ( ) {
         Response response = RequestEndpoints.postData ( userDetails , ConfigLoader.getProperty ( "generateToken" ) )
                 .then ( )
+                .spec ( jsonResponseSpec () )
                 .statusCode ( HttpStatus.SC_OK )
                 .body ( "token" , notNullValue ( ) )
                 .body ( "expires" , notNullValue ( ) )
@@ -58,6 +61,7 @@ public class E2ETestCases extends BaseTest {
     public void getAllBooksTest ( ) {
         Response response = RequestEndpoints.getData ( ConfigLoader.getProperty ( "getBooks" ) )
                 .then ( )
+                .spec ( jsonResponseSpec () )
                 .statusCode ( HttpStatus.SC_OK )
                 .body ( "books" , notNullValue ( ) )
                 .body ( matchesJsonSchemaInClasspath ( "schemas/Book.json" ) ).extract ( ).response ( );
@@ -69,6 +73,7 @@ public class E2ETestCases extends BaseTest {
     public void getBookByISBNTest ( ) {
         RequestEndpoints.getData ( ConfigLoader.getProperty ( "getBooks" ) , "9781449325862" )
                 .then ( )
+                .spec ( jsonResponseSpec () )
                 .statusCode ( HttpStatus.SC_OK );
         logger.info ( "Get Book By ISBN test passed successfully" );
     }
@@ -82,6 +87,7 @@ public class E2ETestCases extends BaseTest {
 
         Response response = RequestEndpoints.postData ( addBooksByISBNPageRequestBody , ConfigLoader.getProperty ( "addBook" ) , token )
                 .then ( )
+                .spec ( jsonResponseSpec () )
                 .statusCode ( HttpStatus.SC_CREATED )
                 .body ( notNullValue ( ) ).extract ( ).response ( );
 
@@ -98,6 +104,7 @@ public class E2ETestCases extends BaseTest {
         UpdateBooksPage updateBooksPageReq = new UpdateBooksPage ( userID , "9781449337711" );
         Response response = RequestEndpoints.updateBookDetails ( updateBooksPageReq , ConfigLoader.getProperty ( "addBook" ) , token , Isbn )
                 .then ( )
+                .spec ( jsonResponseSpec () )
                 .statusCode ( HttpStatus.SC_OK )
                 .body ( notNullValue ( ) ).extract ( ).response ( );
 
@@ -117,7 +124,7 @@ public class E2ETestCases extends BaseTest {
         RequestEndpoints.deleteBook ( updateBooksPage , ConfigLoader.getProperty ( "deleteBook" ) , token )
                 .then ( )
                 .statusCode ( 204 )
-                .contentType (equalTo ( "" ));
+                .header ( "Content-Type", isEmptyOrNullString () );
     }
 
 }

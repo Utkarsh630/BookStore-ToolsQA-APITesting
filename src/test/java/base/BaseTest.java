@@ -7,6 +7,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
+import io.restassured.specification.ResponseSpecification;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeClass;
@@ -35,11 +36,18 @@ public class BaseTest {
                 .log(LogDetail.ALL)
                 .build();
 
-        RestAssured.responseSpecification= new ResponseSpecBuilder()
-               .expectContentType(ContentType.JSON)
+//        RestAssured.responseSpecification= new ResponseSpecBuilder()
+//               .expectContentType(ContentType.JSON)
+//                .log(LogDetail.ALL)
+//                .build();
+
+    }
+
+    public ResponseSpecification jsonResponseSpec() {
+        return new ResponseSpecBuilder()
+                .expectContentType(ContentType.JSON)
                 .log(LogDetail.ALL)
                 .build();
-
     }
 
 }
